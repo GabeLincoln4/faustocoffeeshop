@@ -8,13 +8,13 @@ import ServiceItem from './ServiceItem';
 function Services(){
 
 
-    AOS.init();
-    // useEffect(()=>{
-    //     AOS.init({
-    //         duration: 1000,
-    //         // startEvent: 'load'
-    //     });
-    // }, []);
+    
+    useEffect(()=>{
+        AOS.init({
+            duration: 1000,
+            startEvent: 'load'
+        });
+    }, []);
     
 
     const headingStyle="font-serif text-3xl md:text-5xl mb-2";
