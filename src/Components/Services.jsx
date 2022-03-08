@@ -7,13 +7,14 @@ import ServiceItem from './ServiceItem';
 
 function Services(){
 
-    useEffect(()=>{
-        AOS.init({
-            duration: 1000,
-            // startEvent: 'load'
-        });
-        AOS.refresh();
-    }, []);
+
+    AOS.init();
+    // useEffect(()=>{
+    //     AOS.init({
+    //         duration: 1000,
+    //         // startEvent: 'load'
+    //     });
+    // }, []);
     
 
     const headingStyle="font-serif text-3xl md:text-5xl mb-2";
