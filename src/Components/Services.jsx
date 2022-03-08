@@ -10,7 +10,7 @@ function Services(){
     useEffect(()=>{
         AOS.init({
             duration: 1000,
-            startEvent: 'load'
+            // startEvent: 'load'
         });
         AOS.refresh();
     }, []);
