@@ -9,12 +9,12 @@ import AOS from 'aos';
 
 function Feature(){
 
-    useEffect(() => {
-        AOS.init({
-            duration: 1000,
-            startEvent: 'load'
-        });
-    }, [])
+    // useEffect(() => {
+    //     AOS.init({
+    //         duration: 1000,
+    //         startEvent: 'load'
+    //     });
+    // }, [])
 
     const normalClassName = "bg-yellow-800 flex-grow rounded-3xl shadow-2xl text-white text-2xl md:transform md:translate-x-0 my-5 p-2 md:w-3/4";
     const alternateClassName = "bg-yellow-500 flex-grow rounded-3xl shadow-lg text-white text-2xl md:transform md:translate-x-0 my-5 p-2 md:w-3/4";
@@ -35,7 +35,7 @@ function Feature(){
 
     return (
         <div className="bg-yellow-100 h-full" id="home">
-            <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 p-20" data-aos="">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 p-20">
                         <div className="md:p-4 text-center md:self-end h-2/3">
                             <h1 className="md:text-left text-6xl md:text-7xl leading-tight">Freshly <span className="text-yellow-800" whileHover="text-white">Roasted. </span>Downtown <span className="text-yellow-400">Feel.</span></h1>
                         </div>
