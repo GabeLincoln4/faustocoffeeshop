@@ -12,6 +12,7 @@ function Services(){
             duration: 1000,
             startEvent: 'DOMContentLoaded'
         });
+        AOS.refresh();
     }, []);
     
 
