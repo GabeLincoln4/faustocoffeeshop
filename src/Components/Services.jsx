@@ -7,12 +7,10 @@ import ServiceItem from './ServiceItem';
 
 function Services(){
 
-
-    
     useEffect(()=>{
         AOS.init({
             duration: 1000,
-            startEvent: 'load'
+            startEvent: 'DOMContentLoaded'
         });
     }, []);
     

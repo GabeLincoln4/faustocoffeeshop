@@ -10,7 +10,7 @@ function Lincolnton(){
             duration: 1000,
             startEvent: 'load'
         });
-    })
+    }, [])
 
     return (
         <div className="bg-yellow-200">
